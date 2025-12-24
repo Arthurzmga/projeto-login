@@ -70,7 +70,7 @@ div#formulario p{
     transform: scale(1.08) translate(5%, -3%);
     border-radius: 10px;
     height: 35px;
-    width: 170px;
+    width: 78%;
 }
 .material-symbols-outlined{
     color: white;
@@ -78,8 +78,9 @@ div#formulario p{
 }
 .but{
     padding: 12.5px;
-    margin: 2.5px;
-    width: 225px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
     font-size: 1em;
     border-radius: 10px;
     border-color: var(--cor1);
@@ -90,11 +91,16 @@ input#corbut{
     color: rgba(255, 255, 255, 0.9);
     border-style:  none;
 }
-input#corbut::after{
-    font-family: 'Material-Symbols-Outlined';
-    content: "\e158";
+a.but{
+    border-color: var(--cor1);
+    border-style: solid;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding-top: 0px;
+    border-width: 3px;
 }
 span#mail{
     color: var(--cor1);
-    transform: translate(725%, -180%) scale(0.8);
+    transform: scale(0.8) translate(-25%, 0%);
 }

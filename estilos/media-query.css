@@ -23,13 +23,7 @@ Grandes: acima de 1200px
         width: 70%;
     }
     .caixa input{
-        min-width: 385px;
-    }
-    .but{
-        width: 460px;
-    }
-    span#mail{
-        transform: translate(1215%, -170%) scale(0.8);
+        width: 85%;
     }
 }
 @media screen  and (min-width: 992px){
@@ -49,12 +43,6 @@ Grandes: acima de 1200px
         width: 50%;
     }
     .caixa input{
-        width: 350px;
-    }
-    .but{
-        width: 425px;
-    }
-    span#mail{
-        transform: translate(1135%, -170%) scale(0.8);
-    }    
+        width: 85%;
+    } 
 }
