@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*Typical Device Breakpoints
+-----------------------------
+Pequenas: até 600px
+Celular: de 600px até 768px
+Desktop: 992px até 1200px
+Grandes: acima de 1200px
+*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login{
+        width: 90vw;
+    }
+    div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    div#formulario{
+        float: right;
+        width: 70%;
+    }
+    .caixa input{
+        min-width: 385px;
+    }
+    .but{
+        width: 460px;
+    }
+    span#mail{
+        transform: translate(1215%, -170%) scale(0.8);
+    }
+}
+@media screen  and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login{
+        width: 90vw;
+    }    
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    div#formulario{
+        float: right;
+        width: 50%;
+    }
+    .caixa input{
+        width: 350px;
+    }
+    .but{
+        width: 425px;
+    }
+    span#mail{
+        transform: translate(1135%, -170%) scale(0.8);
+    }    
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,700,1,0&icon_names=mail,person,vpn_key"/>
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post">
+                    <p class="caixa">
+                        <label for="iusu" ><span class="material-symbols-outlined">person</span></label>
+                        <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size=""
+                        placeholder="" autocomplete="username">
+                    </p>
+                    <p class="caixa">
+                        <label for="isen"><span class="material-symbols-outlined">vpn_key</span></label>
+                        <input type="password" name="sen" id="isen" requiered minlength="8" maxlength="20" size="" autocomplete="current-password">
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar" class="but" id="corbut">
+                        <br>
+                        <input type="button" value="Esqueci a senha" class="but">
+                        <span class="material-symbols-outlined" id="mail">mail</span>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
