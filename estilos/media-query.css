@@ -40,12 +40,12 @@ Grandes: acima de 1200px
         width: 90vw;
     }    
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
     .caixa input{
