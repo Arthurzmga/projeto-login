@@ -12,8 +12,10 @@ Grandes: acima de 1200px
     }
     section#login{
         width: 90vw;
+        height: 45vh;
     }
     div#imagem{
+        border-top-right-radius: 0px;
         float: left;
         width: 30%;
         height: 100%;
@@ -32,8 +34,10 @@ Grandes: acima de 1200px
     }
     section#login{
         width: 90vw;
+        height: 45vh;
     }    
     div#imagem{
+        border-top-left-radius: 0px;
         float: right;
         width: 50%;
         height: 100%;
