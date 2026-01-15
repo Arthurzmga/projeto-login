@@ -11,8 +11,8 @@ Grandes: acima de 1200px
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login{
-        width: 80vw;
-        height: 45vh;
+        width: 635px;
+        height: 300px;
     }
     div#imagem{
         border-top-right-radius: 0px;
@@ -33,8 +33,8 @@ Grandes: acima de 1200px
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login{
-        width: 75vw;
-        height: 50vh;
+        width: 780px;
+        height: 330px;
     }   
     div#imagem{
         border-top-left-radius: 0px;
